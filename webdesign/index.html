@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fontawesome link  -->
+    <script src="https://kit.fontawesome.com/3dda576641.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css style  -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>Hello, world!</title>
+</head>
+
+<body class="bg">
+
+    <!-- name : Nusrath Jahan Sukhy
+    template : design
+
+    1. header 
+    2. hero section 
+    3. Features 
+    4. about
+    5. portfolio
+    6. workflow
+     -->
+
+
+    <!--========================= 1. header section start  ======================-->
+    <div class="header ">
+
+
+
+        <!-- offcanvas for responsive navbar  -->
+        <div class="offcanvas offcanvas-start my-2" tabindex="-1" id="offcanvasMenu"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sportology
+                </h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-3 my-5">
+                <!-- top header start -->
+                <div class="topheader">
+                    <div class="container">
+                        <div class="d-flex justify-content-between flex-wrap">
+
+                            <div class="topheader_right d-flex flex-row justify-content-between  ">
+                                <a href="" class="d-inline-block px-3 py-2 text-decoration-none "> <i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="" class="d-inline-block px-3 py-2 text-decoration-none "> <i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="" class="d-inline-block px-3 py-2 text-decoration-none "><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="" class="d-inline-block px-3 py-2 text-decoration-none "><i
+                                        class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- top header end -->
+                <div class="list-group list-group-flush">
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        About Us </a>
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        Media</a>
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        Services</a>
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        Home</a>
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        Contact Us</a>
+                    <a href="#!" class="fw-bold list-group-item list-group-item-action">
+                        <button type="button" class="btn btn-outline-dark">Dark</button></a>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- offcanvas part end  -->
+        <div class="header_nav_cover">
+            <div class="mHeader_hero" style="background-color: #243e8ecc">
+                <!-- top header start -->
+                <div class="topheader d-lg-block d-md-block d-none">
+                    <div class="container">
+                        <div class="d-flex justify-content-between">
+                            <div class="topheader_left d-flex flex-row justify-content-between ">
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"><i
+                                        class="fa-solid fa-location-dot"></i> 02331 / 62401-0</a>
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"><i
+                                        class="fa-solid fa-phone"></i> Westpreußenstrasse 3 58089 Hagen</a>
+                            </div>
+                            <div class="topheader_right d-flex flex-row justify-content-between  ">
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"> <i
+                                        class="fa-brands fa-facebook"></i></a>
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"> <i
+                                        class="fa-brands fa-instagram"></i></a>
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"><i
+                                        class="fa-brands fa-linkedin"></i></a>
+                                <a href="" class="d-inline-block px-3 pt-3 link-light text-decoration-none"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <svg width="100%" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="1440" height="1" fill="white" fill-opacity="0.2" />
+                    </svg>
+                </div>
+
+
+
+
+                <!-- top header end -->
+
+
+
+                <!-- mein header start  -->
+                <div class="main_header">
+                    <div class="container">
+                        <div class="main_header_wrapper">
+
+                            <nav class="navbar navbar-expand-md navbar-light py-0">
+                                <!-- <button class="navbar-toggler ms-auto" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                                <button class="btn d-md-none shadow-none rounded-0 order-3  text-white  my-5 "
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+                                    <i class="fa-solid fa-bars "></i>
+                                </button>
+                                <div class="navbar-img  my-3">
+                                    <a class="navbar-brand me-0 py-0 d-flex align-items-center" href="#!" title="logo">
+                                        <svg width="138" height="45" viewBox="0 0 138 45" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <mask id="mask0_34_26" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                                x="0" y="0" width="138" height="45">
+                                                <rect width="138" height="45" fill="url(#pattern0_34_26)" />
+                                            </mask>
+                                            <g mask="url(#mask0_34_26)">
+                                                <rect x="-6" y="-3" width="150" height="52" fill="white" />
+                                            </g>
+                                            <defs>
+                                                <pattern id="pattern0_34_26" patternContentUnits="objectBoundingBox"
+                                                    width="1" height="1">
+                                                    <use xlink:href="#image0_34_26"
+                                                        transform="matrix(0.00501672 0 0 0.0153846 -0.00167224 0)" />
+                                                </pattern>
+                                                <image id="image0_34_26" width="200" height="65"
+                                                    xlink:href="data:image/png;base64,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" />
+                                            </defs>
+                                        </svg>
+
+                                    </a>
+                                </div>
+                                <div class="collapse navbar-collapse py-2 cs-Menu-Custom" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none"
+                                                href="#!">About Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none"
+                                                href="#!">Media</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none"
+                                                href="#!">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none"
+                                                href="#!">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none"
+                                                href="#!">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-uppercase text-white px-3 py-2 link-light text-decoration-none border border-2 rounded-3"
+                                                href="#!">Sign Up</a>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+                            </nav>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- mein header end -->
+                <!--========================== 2. hero-seaction part start  ==============================-->
+                <section class="hero" style="">
+                    <div class="container">
+                        <div class="hero-wrapper my-5 ">
+                            <h1 class="text-white my-5 text-uppercase">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                commodi </h1>
+
+                            <button type="button" class="btn btn-light rounded-3">Sign In</button>
+
+                        </div>
+
+                        <svg width="100%" class="my-5" height="1" viewBox="0 0 1440 1" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="1440" height="1" fill="white" fill-opacity="0.2" />
+                        </svg>
+                    </div>
+
+                </section>
+            </div>
+            <!--============================== 2.hero-seaction part end ==============================-->
+        </div>
+
+
+
+    </div>
+
+    <!--========================= 1. header section end  ==========================-->
+
+
+    </div>
+
+
+
+
+    <!--=========================== 3.Features part start ============================== -->
+    <div class="features my-5 py-5">
+        <div class="container">
+            <div class="title text-center text-white m-2">
+                <h2>BAUSTOFFLOGISTIK
+                    UND BAUSTOFFTRANSPORTE</h2>
+                <p>Als zertifizierter Entsorgungsfachbetrieb bietet GRÄWE ideale Voraussetzungen für die Lieferung und
+                    den Abtransport von Baustoffen in Hagen und NRW. Wir arbeiten dabei stets nach den Bestimmungen des
+                    Kreislaufwirtschaftsabfallgesetzes.</p>
+            </div>
+
+        </div>
+        <div class="features_boxs mx-3 my-5 d-flex justify-content-between">
+            <div class="row">
+                <div class="row">
+                    <div class="col-3 col-md-3 col-sm-12">
+                        <div class=" feauters_box ">
+                            <img src="img/features/f-1.jpg" class="card-img-top " style="height: 395px;" alt="...">
+                            <div class="features_box_body">
+                                <h5 class="card-title text-white">Containerdienst</h5>
+                                <a class="d-inline-block  text-decoration-none text-white" href="">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-12">
+                        <div class=" feauters_box ">
+                            <img src="img/features/f-2.jpg" class="card-img-top" style="height: 395px;" alt="...">
+                            <div class="features_box_body">
+                                <h5 class="card-title text-white">Containerdienst</h5>
+                                <a class="d-inline-block  text-decoration-none text-white" href="">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-12">
+                        <div class=" feauters_box ">
+                            <img src="img/features/f-3.jpg" class="card-img-top" style="height: 395px;" alt="...">
+                            <div class="features_box_body">
+                                <h5 class="card-title text-white">Containerdienst</h5>
+                                <a class="d-inline-block  text-decoration-none text-white" href="">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-12">
+                        <div class=" feauters_box ">
+                            <img src="img/features/f-4.jpg" class="card-img-top" style="height: 395px;" alt="...">
+                            <div class="features_box_body">
+                                <h5 class="card-title text-white">Containerdienst</h5>
+                                <a class="d-inline-block  text-decoration-none text-white" href="">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <!--=========================== 3.Features part end ============================== -->
+
+    <!--================ 4. about part start  =================-->
+    <div class="about bg-white py-5">
+        <div class="container ">
+            <div class="about_title text-center m-2">
+                <a href="" class="d-inline-block  text-decoration-none">Gräwe Transport GmbH</a>
+                <h1>WIR, DIE GRÄWE TRANSPORT GMBH, SIND EIN MODERNES, MITTELSTÄNDISCHES FAMILIENUNTERNEHMEN
+                    MIT SITZ IN HAGEN.</h1>
+
+            </div>
+            <div class="about-details my-5">
+                <div class="row ">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/about.png" alt="" class="about_img">
+                    </div>
+                    <div class="col-md-6 col-sm-12 my-5 p-5">
+                        <p>Ihr zuverlässiger Partner im Bereich Transport- und Serviceleistungen für
+                            Schüttgüter, Baustoffe,
+                            Erdbau sowie Dienstleistungen im Abfallmanagement</p>
+                        <div class="points">
+                            <div class="point"><i class="fa-solid fa-check"></i>Eigene 25ha große Recyclinganlage</div>
+                            <div class="point"></i><i class="fa-solid fa-check"></i>Gesamte Wertschöpfungskette für
+                                Baustoffe aus einer Hand</div>
+                            <div class="point"><i class="fa-solid fa-check"></i>Kurze Transportwege & wettbewerbsfähige
+                                Preise</div>
+                        </div>
+                        <button type="button" class="btn btn-primary my-3"
+                            style="background-color: #243e8e;">Primary</button>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--================= 4. about part end ==================-->
+    <!--========================== 5. service part start ================== -->
+    <div class="service my-5 py-5">
+        <div class="container">
+            <div class="title text-center text-white m-2">
+                <h2>BAUSTOFFLOGISTIK
+                    UND BAUSTOFFTRANSPORTE</h2>
+                <p>Als zertifizierter Entsorgungsfachbetrieb bietet GRÄWE ideale Voraussetzungen für die Lieferung und
+                    den Abtransport von Baustoffen in Hagen und NRW. Wir arbeiten dabei stets nach den Bestimmungen des
+                    Kreislaufwirtschaftsabfallgesetzes.</p>
+            </div>
+            <div class="service_details text-white my-5">
+                <div class="service_boxes row">
+                    <div class="s_box p-3 col-md-4 col-sm-12 ">
+                        <div class="service_box border m-2 p-5">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0_34_95" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="34" height="34">
+                                    <rect width="34" height="34" fill="url(#pattern0_34_95)" />
+                                </mask>
+                                <g mask="url(#mask0_34_95)">
+                                    <rect width="34" height="34" fill="white" />
+                                </g>
+                                <defs>
+                                    <pattern id="pattern0_34_95" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_34_95" transform="scale(0.00398406)" />
+                                    </pattern>
+                                    <image id="image0_34_95" width="251" height="251"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD7CAMAAACbrBKUAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAwIBAEPAgoOBgMNBQsJBwIHfaHAAACYlJREFUeNrs2ttuwyAMBmBzsCEEiN//aVc1y0BbtS5rw0Hydx/hn0NQrIAQQgghhBBCCPENGYJzjCGYH20JmdnAGZmZvVumzh+z512CM/jTmg1MKTrk3ens1YPoIkzmHrzwAc5YkCvoAkyDsucC03a+dqMVV7ye4+wviotVB/gvk1cu0vBH32pflbvQy7dEFd8vFsZFGcuKl0rfFh/1qOnJXXQ+Q8ax01fJU4R3W9S46W3mT5gJrhDcoOk18s5fWJf9GgUXGEX0R/KLayrp1zFuPFINV6OkdwNsfI1tT6HVvMMN+gpr82UoN4oi6EgfVQRoyazdlz4cJURobUO+UxY6KOPnHuNTKvPenE185w30EY+ph9aCb7Toz2d/JWindFbQQD+lirbhVXnT9ET721ZDS2ofsr/cvpD++73e9w5aIjdM95C2cb7qhBBCCCGEEEIIIYSYQNSqZuEmqd/pMVqh7/ldoMhwo/kZP0IP/CUG+QcCAIv8lJ/oR9oHFn4gwc3GfzBz+/mDezPaeRuEoTAGQyAJid//aSdVmrjYWnxqs67/dztpfxzs42OTNvkrj1quouB7q748SWx6KKAoyBy+FJInnONfJ2zhO3le0vUhg/Jzs57zRMS6KDjCN9JndVzkp2r9ay17GJfth8od53lEnEXBFb6NrhHwKBr+l6t+LWkekfrgKXwVXGVGH8Zvxhn+JbEeu/UboIHV2VbTg9x4xlZLxqs17BQNMbzJPvQCMqOG2Ktewmhpn0uwL05GhYnAWSZZausrevCbzUjv0FFuS219A0umGPXlgKxqEbTPcdwAi4WVTLTZ6BMcUS7Q1rcqKawK5vGqLCpfoRzmjNRIIiwnebxpoEQMREi7or7PlT6OERGvHWlwxfyruVfkojaBg/L7B2LZ0OYUSteDlZb1XqWJBrrzW07n0KtddHLQvMkzKgNeyDzX3foyqWiDwzWvAR7Y7nNYnci757ogamdSEj37W6sE1k5ge3CikO7hd1FD7xmOG0/5BZq3Pe1E4DAPGRbC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" />
+                                </defs>
+                            </svg>
+                            <h5 class="py-2">Transporte</h5>
+                            <p>Wir sind als renommiertes Transportunternehmen auch Ihre erste Adresse für den
+                                Abtransport
+                                von Bauschutt direkt von der Baustelle.</p>
+                            <a class="d-inline-block  text-decoration-none text-white py-2" href="">Read More <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="s_box p-3 col-md-4 col-sm-12 ">
+                        <div class="service_box border m-2 p-5">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0_34_95" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="34" height="34">
+                                    <rect width="34" height="34" fill="url(#pattern0_34_95)" />
+                                </mask>
+                                <g mask="url(#mask0_34_95)">
+                                    <rect width="34" height="34" fill="white" />
+                                </g>
+                                <defs>
+                                    <pattern id="pattern0_34_95" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_34_95" transform="scale(0.00398406)" />
+                                    </pattern>
+                                    <image id="image0_34_95" width="251" height="251"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD7CAMAAACbrBKUAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAwIBAEPAgoOBgMNBQsJBwIHfaHAAACYlJREFUeNrs2ttuwyAMBmBzsCEEiN//aVc1y0BbtS5rw0Hydx/hn0NQrIAQQgghhBBCCPENGYJzjCGYH20JmdnAGZmZvVumzh+z512CM/jTmg1MKTrk3ens1YPoIkzmHrzwAc5YkCvoAkyDsucC03a+dqMVV7ye4+wviotVB/gvk1cu0vBH32pflbvQy7dEFd8vFsZFGcuKl0rfFh/1qOnJXXQ+Q8ax01fJU4R3W9S46W3mT5gJrhDcoOk18s5fWJf9GgUXGEX0R/KLayrp1zFuPFINV6OkdwNsfI1tT6HVvMMN+gpr82UoN4oi6EgfVQRoyazdlz4cJURobUO+UxY6KOPnHuNTKvPenE185w30EY+ph9aCb7Toz2d/JWindFbQQD+lirbhVXnT9ET721ZDS2ofsr/cvpD++73e9w5aIjdM95C2cb7qhBBCCCGEEEIIIYSYQNSqZuEmqd/pMVqh7/ldoMhwo/kZP0IP/CUG+QcCAIv8lJ/oR9oHFn4gwc3GfzBz+/mDezPaeRuEoTAGQyAJid//aSdVmrjYWnxqs67/dztpfxzs42OTNvkrj1quouB7q748SWx6KKAoyBy+FJInnONfJ2zhO3le0vUhg/Jzs57zRMS6KDjCN9JndVzkp2r9ay17GJfth8od53lEnEXBFb6NrhHwKBr+l6t+LWkekfrgKXwVXGVGH8Zvxhn+JbEeu/UboIHV2VbTg9x4xlZLxqs17BQNMbzJPvQCMqOG2Ktewmhpn0uwL05GhYnAWSZZausrevCbzUjv0FFuS219A0umGPXlgKxqEbTPcdwAi4WVTLTZ6BMcUS7Q1rcqKawK5vGqLCpfoRzmjNRIIiwnebxpoEQMREi7or7PlT6OERGvHWlwxfyruVfkojaBg/L7B2LZ0OYUSteDlZb1XqWJBrrzW07n0KtddHLQvMkzKgNeyDzX3foyqWiDwzWvAR7Y7nNYnci757ogamdSEj37W6sE1k5ge3CikO7hd1FD7xmOG0/5BZq3Pe1E4DAPGRbC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" />
+                                </defs>
+                            </svg>
+                            <h5 class="py-2">Transporte</h5>
+                            <p>Wir sind als renommiertes Transportunternehmen auch Ihre erste Adresse für den
+                                Abtransport
+                                von Bauschutt direkt von der Baustelle.</p>
+                            <a class="d-inline-block  text-decoration-none text-white py-2" href="">Read More <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="s_box p-3 col-md-4 col-sm-12 ">
+                        <div class="service_box border m-2 p-5">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0_34_95" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="34" height="34">
+                                    <rect width="34" height="34" fill="url(#pattern0_34_95)" />
+                                </mask>
+                                <g mask="url(#mask0_34_95)">
+                                    <rect width="34" height="34" fill="white" />
+                                </g>
+                                <defs>
+                                    <pattern id="pattern0_34_95" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_34_95" transform="scale(0.00398406)" />
+                                    </pattern>
+                                    <image id="image0_34_95" width="251" height="251"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD7CAMAAACbrBKUAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAwIBAEPAgoOBgMNBQsJBwIHfaHAAACYlJREFUeNrs2ttuwyAMBmBzsCEEiN//aVc1y0BbtS5rw0Hydx/hn0NQrIAQQgghhBBCCPENGYJzjCGYH20JmdnAGZmZvVumzh+z512CM/jTmg1MKTrk3ens1YPoIkzmHrzwAc5YkCvoAkyDsucC03a+dqMVV7ye4+wviotVB/gvk1cu0vBH32pflbvQy7dEFd8vFsZFGcuKl0rfFh/1qOnJXXQ+Q8ax01fJU4R3W9S46W3mT5gJrhDcoOk18s5fWJf9GgUXGEX0R/KLayrp1zFuPFINV6OkdwNsfI1tT6HVvMMN+gpr82UoN4oi6EgfVQRoyazdlz4cJURobUO+UxY6KOPnHuNTKvPenE185w30EY+ph9aCb7Toz2d/JWindFbQQD+lirbhVXnT9ET721ZDS2ofsr/cvpD++73e9w5aIjdM95C2cb7qhBBCCCGEEEIIIYSYQNSqZuEmqd/pMVqh7/ldoMhwo/kZP0IP/CUG+QcCAIv8lJ/oR9oHFn4gwc3GfzBz+/mDezPaeRuEoTAGQyAJid//aSdVmrjYWnxqs67/dztpfxzs42OTNvkrj1quouB7q748SWx6KKAoyBy+FJInnONfJ2zhO3le0vUhg/Jzs57zRMS6KDjCN9JndVzkp2r9ay17GJfth8od53lEnEXBFb6NrhHwKBr+l6t+LWkekfrgKXwVXGVGH8Zvxhn+JbEeu/UboIHV2VbTg9x4xlZLxqs17BQNMbzJPvQCMqOG2Ktewmhpn0uwL05GhYnAWSZZausrevCbzUjv0FFuS219A0umGPXlgKxqEbTPcdwAi4WVTLTZ6BMcUS7Q1rcqKawK5vGqLCpfoRzmjNRIIiwnebxpoEQMREi7or7PlT6OERGvHWlwxfyruVfkojaBg/L7B2LZ0OYUSteDlZb1XqWJBrrzW07n0KtddHLQvMkzKgNeyDzX3foyqWiDwzWvAR7Y7nNYnci757ogamdSEj37W6sE1k5ge3CikO7hd1FD7xmOG0/5BZq3Pe1E4DAPGRbC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" />
+                                </defs>
+                            </svg>
+                            <h5 class="py-2">Transporte</h5>
+                            <p>Wir sind als renommiertes Transportunternehmen auch Ihre erste Adresse für den
+                                Abtransport
+                                von Bauschutt direkt von der Baustelle.</p>
+                            <a class="d-inline-block  text-decoration-none text-white py-2" href="">Read More <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-1"></div>
+                    <div class="col-md-4 col-sm-12 ">
+                        <div class="service_box border m-2 p-5">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0_34_95" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="34" height="34">
+                                    <rect width="34" height="34" fill="url(#pattern0_34_95)" />
+                                </mask>
+                                <g mask="url(#mask0_34_95)">
+                                    <rect width="34" height="34" fill="white" />
+                                </g>
+                                <defs>
+                                    <pattern id="pattern0_34_95" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_34_95" transform="scale(0.00398406)" />
+                                    </pattern>
+                                    <image id="image0_34_95" width="251" height="251"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD7CAMAAACbrBKUAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAwIBAEPAgoOBgMNBQsJBwIHfaHAAACYlJREFUeNrs2ttuwyAMBmBzsCEEiN//aVc1y0BbtS5rw0Hydx/hn0NQrIAQQgghhBBCCPENGYJzjCGYH20JmdnAGZmZvVumzh+z512CM/jTmg1MKTrk3ens1YPoIkzmHrzwAc5YkCvoAkyDsucC03a+dqMVV7ye4+wviotVB/gvk1cu0vBH32pflbvQy7dEFd8vFsZFGcuKl0rfFh/1qOnJXXQ+Q8ax01fJU4R3W9S46W3mT5gJrhDcoOk18s5fWJf9GgUXGEX0R/KLayrp1zFuPFINV6OkdwNsfI1tT6HVvMMN+gpr82UoN4oi6EgfVQRoyazdlz4cJURobUO+UxY6KOPnHuNTKvPenE185w30EY+ph9aCb7Toz2d/JWindFbQQD+lirbhVXnT9ET721ZDS2ofsr/cvpD++73e9w5aIjdM95C2cb7qhBBCCCGEEEIIIYSYQNSqZuEmqd/pMVqh7/ldoMhwo/kZP0IP/CUG+QcCAIv8lJ/oR9oHFn4gwc3GfzBz+/mDezPaeRuEoTAGQyAJid//aSdVmrjYWnxqs67/dztpfxzs42OTNvkrj1quouB7q748SWx6KKAoyBy+FJInnONfJ2zhO3le0vUhg/Jzs57zRMS6KDjCN9JndVzkp2r9ay17GJfth8od53lEnEXBFb6NrhHwKBr+l6t+LWkekfrgKXwVXGVGH8Zvxhn+JbEeu/UboIHV2VbTg9x4xlZLxqs17BQNMbzJPvQCMqOG2Ktewmhpn0uwL05GhYnAWSZZausrevCbzUjv0FFuS219A0umGPXlgKxqEbTPcdwAi4WVTLTZ6BMcUS7Q1rcqKawK5vGqLCpfoRzmjNRIIiwnebxpoEQMREi7or7PlT6OERGvHWlwxfyruVfkojaBg/L7B2LZ0OYUSteDlZb1XqWJBrrzW07n0KtddHLQvMkzKgNeyDzX3foyqWiDwzWvAR7Y7nNYnci757ogamdSEj37W6sE1k5ge3CikO7hd1FD7xmOG0/5BZq3Pe1E4DAPGRbC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" />
+                                </defs>
+                            </svg>
+                            <h5 class="py-2">Transporte</h5>
+                            <p>Wir sind als renommiertes Transportunternehmen auch Ihre erste Adresse für den
+                                Abtransport
+                                von Bauschutt direkt von der Baustelle.</p>
+                            <a class="d-inline-block  text-decoration-none text-white py-2" href="">Read More <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                    <div class="col-md-4 col-sm-12 ">
+                        <div class="service_box border m-2 p-5">
+                            <svg width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0_34_95" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                                    width="34" height="34">
+                                    <rect width="34" height="34" fill="url(#pattern0_34_95)" />
+                                </mask>
+                                <g mask="url(#mask0_34_95)">
+                                    <rect width="34" height="34" fill="white" />
+                                </g>
+                                <defs>
+                                    <pattern id="pattern0_34_95" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_34_95" transform="scale(0.00398406)" />
+                                    </pattern>
+                                    <image id="image0_34_95" width="251" height="251"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD7CAMAAACbrBKUAAAAM1BMVEUAAAD///////////////////////////////////////////////////////////////+3leKCAAAAEHRSTlMAwIBAEPAgoOBgMNBQsJBwIHfaHAAACYlJREFUeNrs2ttuwyAMBmBzsCEEiN//aVc1y0BbtS5rw0Hydx/hn0NQrIAQQgghhBBCCPENGYJzjCGYH20JmdnAGZmZvVumzh+z512CM/jTmg1MKTrk3ens1YPoIkzmHrzwAc5YkCvoAkyDsucC03a+dqMVV7ye4+wviotVB/gvk1cu0vBH32pflbvQy7dEFd8vFsZFGcuKl0rfFh/1qOnJXXQ+Q8ax01fJU4R3W9S46W3mT5gJrhDcoOk18s5fWJf9GgUXGEX0R/KLayrp1zFuPFINV6OkdwNsfI1tT6HVvMMN+gpr82UoN4oi6EgfVQRoyazdlz4cJURobUO+UxY6KOPnHuNTKvPenE185w30EY+ph9aCb7Toz2d/JWindFbQQD+lirbhVXnT9ET721ZDS2ofsr/cvpD++73e9w5aIjdM95C2cb7qhBBCCCGEEEIIIYSYQNSqZuEmqd/pMVqh7/ldoMhwo/kZP0IP/CUG+QcCAIv8lJ/oR9oHFn4gwc3GfzBz+/mDezPaeRuEoTAGQyAJid//aSdVmrjYWnxqs67/dztpfxzs42OTNvkrj1quouB7q748SWx6KKAoyBy+FJInnONfJ2zhO3le0vUhg/Jzs57zRMS6KDjCN9JndVzkp2r9ay17GJfth8od53lEnEXBFb6NrhHwKBr+l6t+LWkekfrgKXwVXGVGH8Zvxhn+JbEeu/UboIHV2VbTg9x4xlZLxqs17BQNMbzJPvQCMqOG2Ktewmhpn0uwL05GhYnAWSZZausrevCbzUjv0FFuS219A0umGPXlgKxqEbTPcdwAi4WVTLTZ6BMcUS7Q1rcqKawK5vGqLCpfoRzmjNRIIiwnebxpoEQMREi7or7PlT6OERGvHWlwxfyruVfkojaBg/L7B2LZ0OYUSteDlZb1XqWJBrrzW07n0KtddHLQvMkzKgNeyDzX3foyqWiDwzWvAR7Y7nNYnci757ogamdSEj37W6sE1k5ge3CikO7hd1FD7xmOG0/5BZq3Pe1E4DAPGRbCU94Od81MVkTFOBe4xTOc8v6aFw2z38hdPOmbqhnW4AzH+blxlnWTvErpy6Kl8E7Tco2ybmHdNW6wYbMy/rNpMi97UEZYGlUIS+A+efa2bn9TNFY4Q14e17zLuPNIhtUVKTrcHVbBkW3b3cO0M1fUxR4+BS27kz3nSbMNPTRTAkxBfA0+z0SkLHBKSneMRMd7h7RZriiAyIC3AwRsu0Is2eBrbBmdACnllFqMncgwbIIGZ7PYi5k5iMpB9yLRsDlXfLHeEJ6TxKiASZvB+Le3y67hZ+VM6r9QuiiIbpHbrfYxcW3I857VedZuFfzP8HHmmBRbAwbTKc0c+aA5rA5nMg8NphPIL4myxydv5XUfYHgwNUtzIm/twA824gMsebS5lGLc6Fj8odnrMa3DjaT5rpj21GIkymavgAs5obFzBlaLCPxHKuzByvHyDVZ0H3YZ2hyWCh2bEvGTRSWlfOy7wES47G+usdOCKyR1X2iuDZ7B9n763xgDHbEaYjdbG66i4nKO/F2fdzvGHkVHZufIcRUd4bFL7EW0NNfIB83R2CXI1pFoqa6RD+qnYj9FT3KNfJAMsSNigAvdoLtGPiBD7IZRJgpCcY18kD4RexGI6Br5gHxz3lXormzeOyRyU5IsksuLqezyFDoK3G1tLpGjkuy/2DuztcZhGApH8r5kef+nnTIfQ4DS2vJWZfB/DTSH2Nosq+sqHhswFxteCTmU/ui1CYXK+V2dQ0pXkNxK3ZxmeEVcq4N0O0DYwmc0/O5MGmrrp9zKnlEqbi9eFvg1YbHX5pJLZ+hG3spvZrTsLjWz6/E4cFTDzmzRAyGEr8byuiQNI+sV7nraXbtPY6V9HVqbFay049iAAzjZOk9x7fVoTj5usWOn8RhGsc3i2rt2+TR9YLPkky9+K5AeSg2M0stYRCqYpS/r0sgWl9FA23NXd9hCz2KX4fimwaxXKSdtOQ14Mw33n7TJAMUxMXSn7aW1mFR1+QROE86wWYC555gskfhHD0WqRl3jPs9cA6eJhq6Nx5Eq7xc9gE38owdim7h2IK5eKW5E/MvyMkQLj4MXHUYK9R4nXnUQq6/2OFpdVftifgpmNQB+QfzDP/HaAQze2MWNSwwf18dnIBXqAykxhzfwjShusJvTivfBbMwvrLmDigWA9wXy8tXxOcDBZLpp7jKYBzAc3/n02CSklzF+K1ccNazLy7FnjJUsaiC10s2pXPMD8WudymZr348MOJVrHgY4VmZU7jGv+HGdueziNDwpQTGrAnelefzmNDyQ8cDJn7zS9zDoj2B2z3lZqb1xrYH0eOx561gUtCFzKtf8gFwznZbIOGe55kT29Ms8MxgafMo15T3lGXfqrvkNDNuRq30fbOg82SF6Y3zjhoQ2Di7SX0qgTzlUsmknnDqrNQMNnS68W4JNG6IgbRY7tM8aunapyFvL5r+xtTKH6TxNHsmfJJLa68N5W1RSdOSSDDlLhvydKgblMKLsjB7JSYMnJCDbmGINlDViSUWOoUz+VpVhRLEmlrZm7GSXoglmyo/IYWxxrm/JoQQSTDT2L9ZgeeYTyUer0hLcE/Q2dFpVZD5ATh28yg9GtepcrFlrMh9NTxm9yn9te98cJtaVeJC+zTTkL9m1Zw4jVWWjsS2II11Ia6eHd65oxUN1BdpT98q+AYBKaKckNcoVGWqlq0sSoXjTvPfGGAA4yBWPE9BlkRnWl6LoxpLuFC28oY57rPGFLgoanbt0QjxOTrUQxU0He5vzyq3vsSf2OFz0rcr4oe/hX2ivXdpWJ/RadT0C86q5djiD8Vpi3+tIe0vtp/PwDP/YPdBWu0tudvqeVATxdF8s2to50/DpCCEOndhQuz8fle1f/MLaTLsM7V2y69rvIG0j7bLL7ty7iheNtIc+Lsl0Fb810W4+pF9KvOT9hMCqx2nsy5GBtfhv0n+ReLl+f7ZfI57wZJUfEdg09z2T/jvEe0WQXv1Fx4pTk1skSa+3p8otXNiplZ/6EhsX8WLo4zguN1ZO7Uosg/CKUUsvvtnegeZHBy73NpbFw2HGup3IZbtPJpPJZDKZTCaTyWQymVSiEUntkTIiIK8TgLpuHbti9EsKEREs06vetUP+LBjchfD3/daIBhTr6QYl6GejuRT3WSaVOHtQCeb/2O83pMA15Mpekd+0umpEfPpN5wE2fPlYut54IRx+Jl5kUONk8mejYBSMglEwCkbBKBgFgwwAAOWafZMKpdZsAAAAAElFTkSuQmCC" />
+                                </defs>
+                            </svg>
+                            <h5 class="py-2">Transporte</h5>
+                            <p>Wir sind als renommiertes Transportunternehmen auch Ihre erste Adresse für den
+                                Abtransport
+                                von Bauschutt direkt von der Baustelle.</p>
+                            <a class="d-inline-block  text-decoration-none text-white py-2" href="">Read More <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-2 col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========================== 5. service part end ================== -->
+
+    <!--==================== 6.work seaction =============== -->
+    <section class="work my-5 py-5" style="background-color: rgba(247, 247, 247, 1)">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 ">
+                    <h3>WIR SIND EIN PROFESSIONELLES LOGISTIK-UNTERNEHMEN</h3>
+                    <p>Wir verfügen über mehr als 25 Jahre Erfahrung in der Transport- und Entsorgungsbranche</p>
+                    <div class="counts d-flex justify-content-between">
+                        <div class="count  p-5  border-end">
+                            <h3>1967 +</h3>
+                            <span>Gründungsjahr</span>
+                        </div>
+                        <div class="count  p-5  border-end">
+                            <h3>117 +</h3>
+                            <span>LKW</span>
+                        </div>
+                        <div class="count p-5  border-end">
+                            <h3>180 +</h3>
+                            <span>Mitarbeiter</span>
+                        </div>
+                    </div>
+                    <div class=" rounded-3 d-flex justify-content-between text-white"
+                        style="background-color: rgba(34, 62, 137, 1);">
+                        <p class="m-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur facere ad ex
+                            in eveniet ab
+                            cupiditate, voluptate atque fuga porro</p>
+                        <i class="bg-white border text-dark m-2 p-3 fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="img/bus.jpg" alt="" class="work_bus w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- bootstrap javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

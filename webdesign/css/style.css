@@ -1,0 +1,46 @@
+/* name : Nusrath Jahan Sukhy 
+template : onlinetrady
+
+1. common css
+2. hero-seaction
+3.hero part start*/
+
+
+/* 1.common css start   */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background: #223E89;
+}
+/* 1.common css end  */
+
+/* <!-- hero-seaction part start  --> */
+
+.hero-wrapper {
+    width: 572px;
+    HEIGHT: 263px;
+}
+section.hero {
+    height: 100vh;
+}
+.service_box.border svg{
+    background: rgba(51, 81, 162, 1);
+    width: 69px;
+    border-radius: 50px;
+    height: 65px;
+    padding: 17px;
+}
+
+
+div.header_nav_cover {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background-position: center;
+}
+
